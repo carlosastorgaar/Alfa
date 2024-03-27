@@ -1,4 +1,3 @@
-# Alfa
 Alfa - Plataforma de Aprendizaje Online
 
 Alfa es una iniciativa en desarrollo dedicada a abordar la importante problemática de la alfabetización en adultos. Nuestra plataforma está siendo diseñada para ofrecer un enfoque integral que cubra desde los conceptos básicos hasta las habilidades avanzadas de lectura y escritura, con una interfaz amigable que garantice una experiencia de aprendizaje en línea satisfactoria.
