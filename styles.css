@@ -30,8 +30,14 @@ button:hover {
     margin-top: 20px;
     }
 
+resultado{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+}
 
 datosProyecto h3 a p {
+    font-size: 20px;
     text-align: center;
     max-width: 300px;
     margin: 0 auto;
