@@ -10,22 +10,23 @@
    
     <from>
         <!Inicio de sesión!>
-       
-        <H2 class="tituloFormulario">Datos de usuario</H2>  
-        <p class="nombre">Nombre</p>    
-        <p class="apellido">Apellido</p>  
-        <p class="Nacimiento">Fecha de nacimiento</p><input type="date">
-        <p class="email">Email</p><input type="email" aria-placeholder="" a> 
-          
-        
-        <div class="Enviar">
-        <p>Enviar</p><input type="button">
-         
-        </div>
-       
-        <div class="borrarTodo">
-            <p>Borrar todo</p><input type="button">
-        </div>
+    
+        <form id="myForm">
+    <input type="text" id="firstName" placeholder="Nombre">
+    <input type="text" id="lastName" placeholder="Apellido">
+    <button type="button" onclick="showInfo()">Enviar</button>
+</form>
+
+<div id="result"></div>
+
+<script>
+    function showInfo() {
+        var firstName = document.getElementById("firstName").value;
+        var lastName = document.getElementById("lastName").value;
+        var fullName = firstName + " " + lastName;
+        document.getElementById("result").innerText = "Nombre completo: " + fullName;
+    }
+</script>
 
         <div class="consentimientoInformado">
             <a href="#"><p>Consentimiento informado</p><input type="checkbox"></a>
