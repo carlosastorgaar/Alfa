@@ -1,7 +1,4 @@
-Alfa - Plataforma de Aprendizaje Online
+Alfa es una prometedora iniciativa en desarrollo centrada en abordar la crítica problemática de la alfabetización en adultos. Nuestra plataforma está siendo meticulosamente diseñada para ofrecer un enfoque integral, desde los conceptos básicos hasta las habilidades avanzadas de lectura y escritura, con una interfaz amigable que garantice una experiencia de aprendizaje en línea satisfactoria. En la fase inicial de este proyecto, colaboramos estrechamente con una alfabetizadora comunitaria comprometida con la educación de jóvenes y adultos, realizando investigaciones fundamentales para entender mejor las necesidades de nuestra audiencia objetivo. Actualmente, buscamos socios que compartan nuestra visión y estén interesados en contribuir al desarrollo web de la plataforma, con la esperanza de brindar oportunidades de aprendizaje a aquellos que más lo necesitan.
 
-Alfa es una iniciativa en desarrollo dedicada a abordar la importante problemática de la alfabetización en adultos. Nuestra plataforma está siendo diseñada para ofrecer un enfoque integral que cubra desde los conceptos básicos hasta las habilidades avanzadas de lectura y escritura.
-En esta etapa, estamos buscando activamente socios que compartan nuestra visión y que deseen contribuir al desarrollo web de la plataforma. Si estás interesado en formar parte de este emocionante proyecto y en ayudarnos a hacer realidad nuestro objetivo de brindar oportunidades de aprendizaje a aquellos que más lo necesitan, ¡nos encantaría escuchar de ti!
-
-Procesos de diseño de experiencia de usuario: https://www.behance.net/gallery/193814371/Aplicacion-Web-para-Alfabetizacion
-Codigo en HTML, CSS, Bootstrap y JavaScript: https://github.com/carlosastorgaar/Alfa
+Procesos de Diseño de Experiencia de Usuario: https://www.behance.net/gallery/193814371/Aplicacion-Web-para-Alfabetizacion
+Codigo en HTML, CSS y JavaScript: https://github.com/carlosastorgaar/Alfa
