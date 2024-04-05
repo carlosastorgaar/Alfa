@@ -8,4 +8,8 @@ function showInfo() {
         document.getElementById("result").innerText =` El nombre completo es: ${fullName} `
     }
 
+function toggleMenu() {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+    }
 

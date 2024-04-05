@@ -6,27 +6,33 @@
 
 body {
     font-family: Arial, sans-serif;
-    }
-/* BARRA DE NAVEGACIÓN Escritorio */
+}
+
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar {
+    height: 70px;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    float: left;
     font-size: 1.5em;
+    align-self: flex-start;
 }
 
 .nav-links {
-    float: right;
     list-style: none;
 }
 
@@ -40,58 +46,48 @@ body {
     text-decoration: none;
 }
 
-/* BARRA DE NAVEGACIÓN Móvil */
+.menu-icon {
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+
+}
+
+.nav-links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.nav-links.active {
+    display: flex;
+}
+
 @media only screen and (max-width: 768px) {
     .nav-links {
         display: none;
-        width: 100%;
-        text-align: center;
+    }
+
+    .menu-icon {
+        display: inline-block;
     }
 
     .nav-links li {
         display: block;
         margin: 10px 0;
     }
-
-    .navbar .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .logo {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .navbar .container .logo,
-    .navbar .container .nav-links {
-        width: 100%;
-    }
-
-    .navbar .container .nav-links {
-        display: none;
-    }
-
-    .navbar .container .nav-links.active {
-        display: block;
-    }
-
-    .navbar .menu-icon {
-        display: block;
-        color: #fff;
-        font-size: 1.5em;
-        cursor: pointer;
-        float: right;
-    }
 }
 
 
 
-
-/* Estilos del formulario sin versión móvil */
+/*FORMULARIO DE INICIO DE SESION Escritorio*/
 form {
     max-width: 300px;
-    margin: 0 auto;
+    margin: 200px auto;
     }
 
 input[type="text"] {
@@ -114,7 +110,7 @@ button:hover {
     }
 
 #result {
-    margin-top: 20px;
+    margin-top: 40px;
     }
 
 resultado{
@@ -134,3 +130,5 @@ inicio {
     max-width: 300px;
     margin: 0 auto;
 }
+
+/*FORMULARIO DE INICIO DE SESION Móvil*/
