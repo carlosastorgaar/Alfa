@@ -1,0 +1,37 @@
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70em;
+    background: black;
+    border-radius: 16px; /* Establece un radio de borde de 26px */
+}
+
+.conteiner a {
+    align-self: flex-start;
+    
+}
+
+.menu {
+    display: flex;
+    list-style-type: none; /* Para quitar los estilos de la lista */
+}
+
+.menu li {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+    border: 1px solid white; /* Añade un borde blanco de 1px */
+    border-radius: 26px; /* Establece un radio de borde de 26px */
+    padding: 8px 16px; /* Añade un espacio de relleno para que el borde no esté demasiado cerca del texto */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: white; /* Establece el color del texto en blanco */
+}
+
+.menu li:hover {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+    border: 1px solid white; /* Añade un borde blanco de 1px */
+    border-radius: 26px; /* Establece un radio de borde de 26px */
+    padding: 8px 16px; /* Añade un espacio de relleno para que el borde no esté demasiado cerca del texto */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: black; /* Establece el color del texto en blanco */
+    background: white;
+}
