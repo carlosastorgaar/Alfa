@@ -1,15 +1,15 @@
-.conteiner{
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70em;
+    width: 70vw;
     background: black;
     border-radius: 16px; /* Establece un radio de borde de 26px */
+    position: relative; /* Añadir posicionamiento relativo para alinear el menú */
 }
 
-.conteiner a {
+.alfaLogo {
     align-self: flex-start;
-    
 }
 
 .menu {
@@ -27,11 +27,51 @@
 }
 
 .menu li:hover {
-    margin-right: 20px; /* Espacio entre elementos del menú */
-    border: 1px solid white; /* Añade un borde blanco de 1px */
-    border-radius: 26px; /* Establece un radio de borde de 26px */
-    padding: 8px 16px; /* Añade un espacio de relleno para que el borde no esté demasiado cerca del texto */
-    text-decoration: none; /* Quita el subrayado predeterminado */
     color: black; /* Establece el color del texto en blanco */
-    background: white;
+    background: yellow;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .menu-toggle {
+        display: block;
+        margin-right: 20px; /* Espacio entre elementos del menú */
+        border: 1px solid white; /* Añade un borde blanco de 1px */
+        border-radius: 26px; /* Establece un radio de borde de 26px */
+        padding: 8px 16px; /* Añade un espacio de relleno para que el borde no esté demasiado cerca del texto */
+        text-decoration: none; /* Quita el subrayado predeterminado */
+        color: white;
+    }
+
+    .menu {
+        display: none; 
+        flex-direction: column; /* Mostrar los elementos de menú en una columna */
+        position: absolute; /* Posicionamiento absoluto para controlar la ubicación */
+        top: calc(100% + 10px); /* Posicionamiento debajo del botón de menú */
+        width: 100%; /* Ancho completo */
+        background: black;
+        border-radius: 16px; /* Establece un radio de borde de 26px */
+        padding: 0; /* Eliminar el relleno */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Añadir sombra */
+        z-index: 1; /* Asegurar que el menú esté por encima de otros elementos */
+    }
+
+    .show-menu {
+        display: flex; /* Mostrar el menú solo si está abierto */
+    }
+
+    .menu li {
+        margin-right: 0; /* Eliminar el margen derecho */
+    }
 }

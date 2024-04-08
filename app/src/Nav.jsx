@@ -2,22 +2,28 @@ import { useState } from 'react'
 import './Nav.css'
 import alfaLogo from '/alfa.svg'
 
-function Nav() {
-  
+function NavigationBar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+      setMenuOpen(!menuOpen);
+  };
+
   return (
     <>
-      <div className="conteiner">
-        <a href="#" target="_blank">
-            <img src={alfaLogo} className="logo" alt="Vite logo" />
+      <div className="container">
+        <a className="alfaLogo"href="index.html">
+            <img src={alfaLogo} className="logo" alt="Alfa logo" />
         </a>
-        <ul className="menu">
-            <li>Inicio</li>
-            <li>Cuenta</li>
-            <li>Acerca de</li>
-        </ul>
+        <button className="menu-toggle" onClick={handleMenuToggle}>Menú</button>
+            <ul className={`menu ${menuOpen ? 'show-menu' : ''}`}>
+                <li><a href='#'>Inicio</a></li>
+                <li><a href='#'>Cuenta</a></li>
+                <li><a href='#'>Acerca de</a></li>
+            </ul>
       </div>
     </>
   )
 }
 
-export default Nav
+export default NavigationBar;
