@@ -1,0 +1,25 @@
+const vehicle = [
+    {
+        name: "A",
+        description: "Letra A",
+    },
+    {
+        name: "B",
+        description: "Letra B",
+    },
+    {
+        name: "C",
+        description: "Letra C",
+    },
+    {
+        name: "D",
+        description: "Letra C",
+    },
+    {
+        name: "E",
+        description: "Letra C",
+    },
+
+]
+
+export default vehicle;
