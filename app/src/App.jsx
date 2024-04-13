@@ -17,17 +17,31 @@ function App() {
 
     <>
     <NavScrollExample />
-    <BasicExample />
     
-  
-    
+    <div class="container">
+  <div class="row">
+    <div class="col-lg-7">
+      <h2>Nivel inicial de alfabetización básica</h2>
+      <WithLabelExample />
 
-    <div>
-    <h2>Actividades</h2>
-    <WithLabelExample />
-    
+      <h2>Nivel Básico: Fundamentos de lectura y escritura.</h2>
+      <WithLabelExample />
+
+      <h2>Nivel Intermedio: Desarrollo de habilidades de comprensión y escritura.</h2>
+      <WithLabelExample />
+
+      <h2>Nivel Avanzado: Lectura, interpretación y producción de textos complejos.</h2>
+      <WithLabelExample />
+    </div>
+
+    <div class="col-lg-5">
+      <h2>Proceso de aprendizaje</h2>
       {vehicleList}
     </div>
+  </div>
+</div>
+
+  
   
     
     </>
