@@ -1,2 +1,1 @@
-El siguiente proyecto usara Vite, React, CSS y HTML. 
-
+El siguiente proyecto usara Vite, React, JavaScript, CSS y HTML. 
