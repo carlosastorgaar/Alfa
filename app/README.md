@@ -1,1 +1,1 @@
-Tecnologías usadas NPM, Vite, HTML5, CSS3, Bootstrap, JavaScript y React. 
+Tecnologías usadas npm, Vite, HTML5, CSS3, Bootstrap, JavaScript y React. 
