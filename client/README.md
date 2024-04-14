@@ -1,1 +1,1 @@
-El siguiente proyecto usara Vite, React, JavaScript, CSS y HTML. 
+Tecnologías usadas npm, Vite, HTML5, CSS3, Bootstrap, JavaScript y React. 
