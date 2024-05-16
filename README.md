@@ -1,4 +1,4 @@
-Alfa es una aplicación para la alfabetización de adultos en el español que busca acompañar a la persona desde el aprendizaje del alfabeto hasta la escritura e interpretación de textos complejos. 
+Aplicación Web para el apoyo de la alfabetización en adultos. Busca mediante diversos ejercicios servir como herramienta para la practica del alfabeto hasta la interpretación y redacción de textos complejos. 
 
 Tecnologias usadas: 
 
